@@ -75,6 +75,7 @@ img {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .header__left {
     display: flex;
     justify-content: start;
@@ -108,7 +109,7 @@ img {
 .list {
     list-style: none;
     /* margin-bottom: 270px; */
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .list__link {
@@ -137,6 +138,7 @@ img {
 .list__link__active::before {
     content: "";
 }
+
 .list__link:hover {
     color: #7e7e82;
 }
@@ -155,18 +157,22 @@ img {
     background-image: url("../img/icon/icon-tel.svg");
     margin-right: 16px;
 }
+
 .icon__message {
     background-image: url("../img/icon/icon-message.svg");
     margin-right: 16px;
 }
+
 .icon__contacts {
     background-image: url("../img/icon/icon-contacts.svg");
 }
+
 .footer__mail {
     display: block;
     line-height: 1.5;
     margin-bottom: 12px;
 }
+
 .footer__tel {
     display: block;
     font-weight: 700;
